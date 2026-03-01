@@ -1,0 +1,51 @@
+{
+  "name": "iridescent-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clear-analytics-v2": "node scripts/clear-analytics-v2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amosgao322/Iridescent-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amosgao322/Iridescent-blog/issues"
+  },
+  "homepage": "https://github.com/amosgao322/Iridescent-blog#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "cos-nodejs-sdk-v5": "^2.15.4",
+    "flexsearch": "^0.8.212",
+    "gray-matter": "^4.0.3",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "reading-time": "^1.5.0",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.0.6",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  }
+}
