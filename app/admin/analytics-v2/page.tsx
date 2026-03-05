@@ -582,12 +582,12 @@ export default function AnalyticsV2Page() {
                       <td className="text-right py-3 px-4">{stat.avgScrollDepth}%</td>
                       <td className="text-right py-3 px-4">
                         <span className={stat.bounceRate > 50 ? 'text-red-600' : 'text-gray-700'}>
-                          {stat.bounceRate.toFixed(1)}%
+                          {stat.bounceRate?.toFixed(1) || '-'}%
                         </span>
                       </td>
                       <td className="text-right py-3 px-4">
                         <span className={stat.exitRate > 50 ? 'text-orange-600' : 'text-gray-700'}>
-                          {stat.exitRate.toFixed(1)}%
+                          {stat.exitRate?.toFixed(1) || '-'}%
                         </span>
                       </td>
                       <td className="text-right py-3 px-4">
